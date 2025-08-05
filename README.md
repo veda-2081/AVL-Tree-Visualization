@@ -90,7 +90,7 @@ Edit
 
 ---
 
-## 🖥️ Demo GIF or Screenshot (Optional)
+## 🖥️ Demo Screenshot
 
 <p align="center">
   <img src="Screenshot 2025-08-05 123930.jpg" alt="AVL Tree Visualization Screenshot" width="700"/>
