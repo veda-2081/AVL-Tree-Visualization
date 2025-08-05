@@ -1,78 +1,114 @@
 🌳 AVL Tree Visualization
-AVL Tree Visualization helps users understand how AVL (Adelson-Velsky and Landis) trees work by dynamically displaying node insertions, deletions, and rotations in a real-time graphical format. This project is ideal for students, educators, and developers learning about self-balancing binary search trees.
+📌 Project Description
+This project visualizes how AVL Trees (self-balancing binary search trees) work by dynamically displaying insertions, deletions, and rotations in real time. It helps users understand the underlying balancing logic of AVL trees with smooth animations and interactive GUI elements. Built using web technologies like HTML, CSS, and JavaScript (Canvas/D3.js), this tool is ideal for students, educators, and developers.
 
-✨ Features
-🔄 Interactive Interface
-Insert and delete nodes dynamically.
+🧩 Features
+🔄 Interactive node insertion and deletion
 
-Real-time updates of tree structure.
+🖼️ Real-time graphical tree updates with animations
 
-🖼️ Graphical Representation
-Built using HTML5 Canvas, SVG, or D3.js.
+📐 Visual indicators for left, right, left-right, and right-left rotations
 
-Nodes displayed as circles; edges as lines.
+📏 Dynamic update of height and balance factors
 
-Automatic highlighting of tree balancing rotations.
+🧠 Implemented core AVL logic: insert, delete, rotate
 
-⚙️ AVL Tree Implementation
-Includes core AVL logic: insertions, deletions, rotations.
+🎨 Smooth color transitions to highlight balance changes
 
-Written in JavaScript, Python, or Java depending on version.
+💬 Simple GUI with input box and control buttons
 
-Ensures balance after every operation.
+⚙️ Software Installation & Setup
+📌 Pre-requisites
+Web browser (Chrome, Firefox, Edge)
 
-📈 Real-Time Balancing Visualization
-Visual feedback for:
+No installation needed for frontend-based version
 
-Left rotation
+If using a backend (optional):
 
-Right rotation
+Node.js / Python / Java installed based on backend language
 
-Left-Right rotation
+📦 Technologies Used
+Layer	Tech Stack
+Frontend	HTML, CSS, JavaScript (Canvas/D3.js)
+Backend	(Optional) Node.js / Python / Java
+Data Structure	AVL Tree (Self-Balancing BST)
 
-Right-Left rotation
+📁 File Structure
+bash
+Copy
+Edit
+├── index.html               # Main web page
+├── style.css                # Styling for the visualization
+├── script.js                # AVL logic and visualization logic
+├── README.md                # Project documentation
+├── assets/                  # Icons, images (if any)
+🧪 AVL Tree Operations Visualized
+Insertions
 
-Live updates of height and balance factors for each node.
+User enters a value and clicks "Insert"
 
-🎛️ User Input Support
-Input box for custom values.
+Value is placed in the correct BST position
 
-Dedicated buttons to insert or delete nodes from the tree.
+AVL tree balances itself if necessary
 
-✨ Animations & Effects
-Smooth visual transitions.
+Deletions
 
-Color changes indicate balancing steps and rotations.
+User enters a value and clicks "Delete"
 
-🧰 Tech Stack
-Layer	Technology Used
-Frontend	HTML, CSS, JavaScript (Canvas API / D3.js / p5.js)
-Backend (Optional)	Node.js / Python / Java
-Data Structure	AVL Tree (Self-Balancing Binary Search Tree)
+Node is removed with standard BST deletion rules
 
-📂 Example Repositories
-Here are some types of AVL Tree Visualizations you can find on GitHub:
+AVL tree rebalances using rotations
 
-JavaScript-based visualizations using Canvas/D3.js
+Rotations
 
-Python GUI apps using Tkinter or Pygame
+Left Rotation (LL)
 
-Java implementations using Swing or JavaFX
+Right Rotation (RR)
 
-🔍 Search “AVL Tree Visualization” on GitHub to explore more open-source projects.
+Left-Right Rotation (LR)
 
-🚀 Get Started
-Want to create your own AVL Tree Visualization project? Feel free to fork this repo or start from scratch with your preferred tech stack. We also welcome contributions!
+Right-Left Rotation (RL)
 
-🧠 Learn More
-To understand the inner workings of AVL Trees, refer to:
+🚀 How to Run the Project
+🔹 If Web-based (Frontend only):
+Clone or download the repository
 
-AVL Trees - GeeksforGeeks
+Open index.html in your browser
 
-AVL Trees - Programiz
+Start inserting or deleting nodes using the interface
 
-📬 Contribute or Get Help
-If you'd like help creating your own AVL Tree visualizer, improving this project, or finding a specific repository, feel free to open an issue or reach out!
+🔹 If Using Backend:
+Setup the backend (Node.js/Python/Java)
+
+Run backend server (instructions provided in respective folder)
+
+Open frontend in browser and connect to backend if needed
+
+🖥️ Demo GIF or Screenshot (Optional)
+Add a GIF or image here to showcase how the tree rotates dynamically on insertion/deletion.
+
+🌱 Learning Resources
+AVL Trees on GeeksforGeeks
+
+AVL Trees on Programiz
+
+Visualgo AVL Tree Tool
+
+🔮 Future Enhancements
+Add search node highlighting
+
+Implement step-by-step animations for learning purposes
+
+Add liveness and interactive tutorials
+
+Export tree structure as JSON or image
+
+Add dark mode toggle
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page or submit a pull request.
 
 📄 License
-This project is open-source and available under the MIT License.
+This project is released under the MIT License.
+See LICENSE for more information.
