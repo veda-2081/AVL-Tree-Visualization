@@ -117,7 +117,7 @@ Edit
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/your-repo/issues) or submit a pull request.
+Feel free to check the [issues page](https://github.com/veda-2081/AVL-Tree-Visualization/issues) or submit a [pull request](https://github.com/veda-2081/AVL-Tree-Visualization/pulls).
 
 ---
 
