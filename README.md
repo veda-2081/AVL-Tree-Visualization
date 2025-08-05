@@ -93,7 +93,7 @@ Edit
 ## 🖥️ Demo GIF or Screenshot (Optional)
 
 <p align="center">
-  <img src="assets/Screenshot 2025-08-05 123930.jpg" alt="AVL Tree Visualization Screenshot" width="700"/>
+  <img src="Screenshot 2025-08-05 123930.jpg" alt="AVL Tree Visualization Screenshot" width="700"/>
 </p>
 
 ---
