@@ -92,7 +92,9 @@ Edit
 
 ## 🖥️ Demo GIF or Screenshot (Optional)
 
-> Add a GIF or image here to showcase how the tree rotates dynamically on insertion/deletion.
+<p align="center">
+  <img src="assets/Screenshot 2025-08-05 123930.jpg" alt="AVL Tree Visualization Screenshot" width="700"/>
+</p>
 
 ---
 
